@@ -18,7 +18,7 @@ public class FormTest {
         driver.findElement(By.cssSelector("#usp_form > div:nth-child(3) > div:nth-child(2) > fieldset > input")).sendKeys("luisore@hotmail.com");
         driver.findElement(By.cssSelector("#usp_form > fieldset.usp-title > input")).sendKeys("Gasolina");
         driver.findElement(By.cssSelector("#usp_form > div.input_fields_wrap > fieldset > input")).sendKeys("http://www.gasolina.com");
-        driver.findElement(By.cssSelector("#usp_form > fieldset.usp-content > textarea")).sendKeys("Gasolina cara para llevar");
+        driver.findElement(By.cssSelector("#usp_form > fieldset.usp-content > textarea")).sendKeys("Gasolina para su auto");
 
 
         driver.findElement(By.name("user-submitted-name")).sendKeys("Luis Orellana");
